@@ -6,7 +6,6 @@ import { getAllApplications, getRecommendation, markAsCompleted, postponeApplica
 import { getPlantings } from '../services/plantingService';
 
 function FertilizerSchedulePage() {
-  const { t } = useLanguage();
   const [applications, setApplications] = useState([]);
   const [plantings, setPlantings] = useState([]);
   const [loading, setLoading] = useState(true);

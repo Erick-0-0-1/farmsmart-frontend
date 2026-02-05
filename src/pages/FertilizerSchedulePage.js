@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { useLanguage } from '../context/LanguageContext';
 import FertilizerCard from '../components/FertilizerCard';
 import FertilizerRecommendationModal from '../components/FertilizerRecommendationModal';
 import { getAllApplications, getRecommendation, markAsCompleted, postponeApplication, skipApplication, generateSchedule } from '../services/fertilizerService';

@@ -23,7 +23,7 @@ function Navbar({ currentPage, setCurrentPage }) {
           {/* Logo */}
           <div className="flex items-center">
             <h1 className="text-2xl font-bold text-green-600 dark:text-green-400">
-              🌾 FarmSmart
+              🌾 EJ Farm
             </h1>
           </div>
 
